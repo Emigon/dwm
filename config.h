@@ -1,16 +1,33 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
+#define white         "#ffffff"
+#define grey0         "#878787"
+#define grey1         "#444444"
+#define grey2         "#303030"
+#define pink          "#ff87d7"
+#define light_pink    "#ffafd7"
+#define hot_pink      "#ff00ff"
+#define red           "#ff005f"
+#define teal          "#87ffff"
+#define light_blue    "#afffff"
+#define light_yellow  "#ffffaf"
+#define mint          "#afffd7"
+#define dark_mint     "#00ffaf"
+#define lavender      "#d7afff"
+#define grey_purple   "#afafd7"
+#define dark_lavender "#875faf"
+
 static const char *fonts[] = {
 	"monospace:size=24"
 };
-static const char dmenufont[]       = "monospace:size=24";
-static const char normbordercolor[] = "#444444";
-static const char normbgcolor[]     = "#222222";
-static const char normfgcolor[]     = "#bbbbbb";
-static const char selbordercolor[]  = "#FF6AD5"; //05577";
-static const char selbgcolor[]      = "#FF6AD5"; //005577";
-static const char selfgcolor[]      = "#222222"; //eeeee";
+static const char dmenufont[]       = "inconsolata:size=24";
+static const char normbordercolor[] = grey_purple;
+static const char normbgcolor[]     = grey1;
+static const char normfgcolor[]     = grey_purple;
+static const char selbordercolor[]  = dark_mint;
+static const char selbgcolor[]      = grey1;
+static const char selfgcolor[]      = dark_mint;
 static unsigned int baralpha        = 0xd0;
 static unsigned int borderalpha     = OPAQUE;
 static const unsigned int borderpx  = 3;        /* border pixel of windows */
